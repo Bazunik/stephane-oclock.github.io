@@ -1,0 +1,69 @@
+<script>
+</script>
+
+<main>
+    <div class="top">
+        <div class="headings-1">Virtual Card Manager</div>
+        <ul>
+          <li><a href="index.html" class="link link--active">Home</a></li>
+          <li><a href="admin.html" class="link">List all cards</a></li>
+          <li><a href="create-cc.html" class="link">Create new card</a></li>
+          <li><a href="index.html" class="link">Logout</a></li>
+        </ul>
+      </div>
+      <div class="main">
+        <div class="card-section">
+          <div class="card-content">
+            <div class="front-card">
+              <img src="./images/card-logo.svg" alt="" class="card-logo">
+              <p class="vcard-number" id="vcard-number">0000 0000 0000 0000</p>
+              <div class="flex">
+                <p class="cardholder-name" id="vcard-holder">JANE APPLESEED</p>
+                <div class="card-date">
+                  <span class="month-iformation" id="vcard-mm">00</span>/<span class="year-information" id="vcard-yy">00</span>
+                </div>
+              </div>
+            </div>
+            <!--front-card-->
+            <div class="back-card">
+              <p class="card-cvc" id="vcard-cvc">000</p>
+            </div>
+          </div>
+        </div>
+        <!--card-section-->
+    
+        <div class="right-content">
+          <div class="headings-2">My virtual cards</div>
+    
+          <div class="card">
+            <div class="card-left">
+              <p class="card-collaborator">Linus Torvalds</p>
+              <p class="card-number">5896321458724596</p>
+            </div>
+            <div class="card-right">
+              <p class="card-amount">199 &euro;</p>
+              <p class="card-actions">
+                <button class="btn btn--show details" data-number="5896321458724596" data-holder="Linus Torvalds" data-mm="05" data-yy="24" data-cvc="789">Details</button>
+                <button class="btn">Set as Used</button>
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-left">
+              <p class="card-collaborator">Linus Torvalds</p>
+              <p class="card-number"><span class="card-status">Used</span> 5263859632145785</p>
+            </div>
+            <div class="card-right">
+              <p class="card-amount">487 &euro;</p>
+              <p class="card-actions">
+                <button class="btn btn--show details" data-number="5263859632145785" data-holder="Linus Torvalds" data-mm="02"
+                  data-yy="24" data-cvc="544">Details</button>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+</main>
+
+<style>
+</style>
